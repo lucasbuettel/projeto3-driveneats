@@ -32,9 +32,9 @@
             <!-- Conteúdo principal -->
             <div class="menu">
                 <h2>Primeiro, seu prato</h2>
-                <div class="barra-rolagem">
+                <div class="barra-rolagem frango">
 
-                    <div class="opcao">
+                    <div class="opcao1" onclick="selecionaItemUm('.opcao1')">
 
                         <img src="./images/frango_yin_yang.png">
                         <div class="nome-prato">
@@ -44,13 +44,16 @@
                             <h5>Um pouco de batata, um pouco de salada</h5>
                         </div>
                         <div class="preco">
-                            <h6>R$ 14,90</h6>
-                        </div>                  
+                            <h6>R$ 13,90</h6>
+                            <p>13.90</p>
+                            <div class="esconde" id="icone">  <img src="./images/Vector.png"> </div>
+                        </div>               
+                           
 
                     </div>
+                    
+                    <div class="opcao2" onclick="selecionaItemUm('.opcao2')">
 
-                    <div class="opcao">
-                        
                         <img src="./images/frango_yin_yang.png">
                         <div class="nome-prato">
                             <h4>Frango Yin Yang</h4>
@@ -60,12 +63,14 @@
                         </div>
                         <div class="preco">
                             <h6>R$ 14,90</h6>
-                        </div>                  
+                            <p>14.90</p>
+                            <div class="esconde" id="icone" > <img src="./images/Vector.png"> </div>
+                        </div>               
+                           
 
                     </div>
+                    <div class="opcao3" onclick="selecionaItemUm('.opcao3')">
 
-                    <div class="opcao">
-                        
                         <img src="./images/frango_yin_yang.png">
                         <div class="nome-prato">
                             <h4>Frango Yin Yang</h4>
@@ -74,110 +79,14 @@
                             <h5>Um pouco de batata, um pouco de salada</h5>
                         </div>
                         <div class="preco">
-                            <h6>R$ 14,90</h6>
-                        </div>                  
+                            <h6>R$ 15,90</h6>
+                            <p>15.90</p>
+                            <div class="esconde" id="icone" > <img src="./images/Vector.png"> </div>
+                        </div>               
+                           
 
-                    </div>
-
-                    <div class="opcao">
+                    </div>             
                         
-                        <img src="./images/frango_yin_yang.png">
-                        <div class="nome-prato">
-                            <h4>Frango Yin Yang</h4>
-                        </div>
-                        <div class="descricao-prato">
-                            <h5>Um pouco de batata, um pouco de salada</h5>
-                        </div>
-                        <div class="preco">
-                            <h6>R$ 14,90</h6>
-                        </div>                  
-
-                    </div>
-
-                    <div class="opcao">
-                        
-                        <img src="./images/frango_yin_yang.png">
-                        <div class="nome-prato">
-                            <h4>Frango Yin Yang</h4>
-                        </div>
-                        <div class="descricao-prato">
-                            <h5>Um pouco de batata, um pouco de salada</h5>
-                        </div>
-                        <div class="preco">
-                            <h6>R$ 14,90</h6>
-                        </div>                  
-
-                    </div>
-
-                    <div class="opcao">
-                        
-                        <img src="./images/frango_yin_yang.png">
-                        <div class="nome-prato">
-                            <h4>Frango Yin Yang</h4>
-                        </div>
-                        <div class="descricao-prato">
-                            <h5>Um pouco de batata, um pouco de salada</h5>
-                        </div>
-                        <div class="preco">
-                            <h6>R$ 14,90</h6>
-                        </div>                  
-
-                    </div>
-                    <div class="opcao">
-                        
-                        <img src="./images/frango_yin_yang.png">
-                        <div class="nome-prato">
-                            <h4>Frango Yin Yang</h4>
-                        </div>
-                        <div class="descricao-prato">
-                            <h5>Um pouco de batata, um pouco de salada</h5>
-                        </div>
-                        <div class="preco">
-                            <h6>R$ 14,90</h6>
-                        </div>                  
-
-                    </div>
-                    <div class="opcao">
-                        
-                        <img src="./images/frango_yin_yang.png">
-                        <div class="nome-prato">
-                            <h4>Frango Yin Yang</h4>
-                        </div>
-                        <div class="descricao-prato">
-                            <h5>Um pouco de batata, um pouco de salada</h5>
-                        </div>
-                        <div class="preco">
-                            <h6>R$ 14,90</h6>
-                        </div>                  
-
-                    </div>
-                    <div class="opcao">
-                        
-                        <img src="./images/frango_yin_yang.png">
-                        <div class="nome-prato">
-                            <h4>Frango Yin Yang</h4>
-                        </div>
-                        <div class="descricao-prato">
-                            <h5>Um pouco de batata, um pouco de salada</h5>
-                        </div>
-                        <div class="preco">
-                            <h6>R$ 14,90</h6>
-                        </div>                  
-
-                    </div>
-                    <div class="opcao">
-                        
-                        <img src="./images/frango_yin_yang.png">
-                        <div class="nome-prato">
-                            <h4>Frango Yin Yang</h4>
-                        </div>
-                        <div class="descricao-prato">
-                            <h5>Um pouco de batata, um pouco de salada</h5>
-                        </div>
-                        <div class="preco">
-                            <h6>R$ 14,90</h6>
-                        </div>                  
-
                     </div>
                     
                 </div>
@@ -185,23 +94,9 @@
 
             <div class="menu recua">
                 <h2>Agora, sua bebida</h2>
-                <div class="barra-rolagem">
+                <div class="barra-rolagem bebida">
 
-                    <div class="opcao coca">
-
-                        <img src="./images/coquinha_gelada.png">
-                        <div class="nome-prato">
-                            <h4>Coquinha gelada</h4>
-                        </div>
-                        <div class="descricao-prato">
-                            <h5>Lata 350ml</h5>
-                        </div>
-                        <div class="preco">
-                            <h6>R$ 4,90</h6>
-                        </div>                  
-
-                    </div>
-                    <div class="opcao coca">
+                    <div class="opcao4 coca" onclick="selecionaItemDois('.opcao4')">
 
                         <img src="./images/coquinha_gelada.png">
                         <div class="nome-prato">
@@ -212,10 +107,13 @@
                         </div>
                         <div class="preco">
                             <h6>R$ 4,90</h6>
+                            <p>4.90</p>
+                            <div class="esconde" id="icone">  <img src="./images/Vector.png"> </div>
                         </div>                  
 
                     </div>
-                    <div class="opcao coca">
+                  
+                    <div class="opcao5 coca" onclick="selecionaItemDois('.opcao5')">
 
                         <img src="./images/coquinha_gelada.png">
                         <div class="nome-prato">
@@ -225,11 +123,13 @@
                             <h5>Lata 350ml</h5>
                         </div>
                         <div class="preco">
-                            <h6>R$ 4,90</h6>
+                            <h6>R$ 5,90</h6>
+                            <p>5.90</p>
+                            <div class="esconde" id="icone">  <img src="./images/Vector.png"> </div>
                         </div>                  
 
                     </div>
-                    <div class="opcao coca">
+                    <div class="opcao6 coca" onclick="selecionaItemDois('.opcao6')">
 
                         <img src="./images/coquinha_gelada.png">
                         <div class="nome-prato">
@@ -239,103 +139,38 @@
                             <h5>Lata 350ml</h5>
                         </div>
                         <div class="preco">
-                            <h6>R$ 4,90</h6>
+                            <h6>R$ 6,90</h6>
+                            <p>6.90</p>
+                            <div class="esconde" id="icone">  <img src="./images/Vector.png"> </div>
                         </div>                  
 
-                    </div>
-                    <div class="opcao coca">
-
-                        <img src="./images/coquinha_gelada.png">
-                        <div class="nome-prato">
-                            <h4>Coquinha gelada</h4>
-                        </div>
-                        <div class="descricao-prato">
-                            <h5>Lata 350ml</h5>
-                        </div>
-                        <div class="preco">
-                            <h6>R$ 4,90</h6>
-                        </div>                  
-
-                    </div>
-                    <div class="opcao coca">
-
-                        <img src="./images/coquinha_gelada.png">
-                        <div class="nome-prato">
-                            <h4>Coquinha gelada</h4>
-                        </div>
-                        <div class="descricao-prato">
-                            <h5>Lata 350ml</h5>
-                        </div>
-                        <div class="preco">
-                            <h6>R$ 4,90</h6>
-                        </div>                  
-
-                    </div>
-                    <div class="opcao coca">
-
-                        <img src="./images/coquinha_gelada.png">
-                        <div class="nome-prato">
-                            <h4>Coquinha gelada</h4>
-                        </div>
-                        <div class="descricao-prato">
-                            <h5>Lata 350ml</h5>
-                        </div>
-                        <div class="preco">
-                            <h6>R$ 4,90</h6>
-                        </div>                  
-
-                    </div>
-                    <div class="opcao coca">
-
-                        <img src="./images/coquinha_gelada.png">
-                        <div class="nome-prato">
-                            <h4>Coquinha gelada</h4>
-                        </div>
-                        <div class="descricao-prato">
-                            <h5>Lata 350ml</h5>
-                        </div>
-                        <div class="preco">
-                            <h6>R$ 4,90</h6>
-                        </div>                  
-
-                    </div>
-                    <div class="opcao coca">
-
-                        <img src="./images/coquinha_gelada.png">
-                        <div class="nome-prato">
-                            <h4>Coquinha gelada</h4>
-                        </div>
-                        <div class="descricao-prato">
-                            <h5>Lata 350ml</h5>
-                        </div>
-                        <div class="preco">
-                            <h6>R$ 4,90</h6>
-                        </div>                  
-
-                    </div>
-                    <div class="opcao coca">
-
-                        <img src="./images/coquinha_gelada.png">
-                        <div class="nome-prato">
-                            <h4>Coquinha gelada</h4>
-                        </div>
-                        <div class="descricao-prato">
-                            <h5>Lata 350ml</h5>
-                        </div>
-                        <div class="preco">
-                            <h6>R$ 4,90</h6>
-                        </div>                  
-
-                    </div>
+                    
             
                 </div>  
             </div>      
 
             <div class="menu recua">
                 <h2>Por fim, sua sobremesa</h2>
-                <div class="barra-rolagem-pudim">
+                <div class="barra-rolagem-pudim sobremesa">
 
-                    <div class="opcao pudim">
+                    <div class="opcao7" onclick="selecionaItemTres('.opcao7')">
+
+                        <img src="./images/pudim.png">
+                        <div class="nome-prato">
+                            <h4>Pudim</h4>
+                        </div>
+                        <div class="descricao-prato">
+                            <h5>Apenas pudim</h5>
+                        </div>
+                        <div class="preco">
+                            <h6>R$ 9,90</h6>
+                            <p>9.90</p>
+                            <div class="esconde" id="icone">  <img src="./images/Vector.png"> </div>
+                        </div>               
+                           
+
+                    </div> 
+                    <div class="opcao8" onclick="selecionaItemTres('.opcao8')">
 
                         <img src="./images/pudim.png">
                         <div class="nome-prato">
@@ -346,24 +181,13 @@
                         </div>
                         <div class="preco">
                             <h6>R$ 7,90</h6>
-                        </div>                  
+                            <p>7.90</p>
+                            <div class="esconde" id="icone">  <img src="./images/Vector.png"> </div>
+                        </div>               
+                           
 
-                    </div>
-                    <div class="opcao pudim">
-
-                        <img src="./images/pudim.png">
-                        <div class="nome-prato">
-                            <h4>Pudim</h4>
-                        </div>
-                        <div class="descricao-prato">
-                            <h5>Apenas pudim</h5>
-                        </div>
-                        <div class="preco">
-                            <h6>R$ 7,90</h6>
-                        </div>                  
-
-                    </div>
-                    <div class="opcao pudim">
+                    </div> 
+                    <div class="opcao9" onclick="selecionaItemTres('.opcao9')">
 
                         <img src="./images/pudim.png">
                         <div class="nome-prato">
@@ -373,149 +197,27 @@
                             <h5>Apenas pudim</h5>
                         </div>
                         <div class="preco">
-                            <h6>R$ 7,90</h6>
-                        </div>                  
+                            <h6>R$ 8,90</h6>
+                            <p>8.90</p>
+                            <div class="esconde" id="icone"> <img src="./images/Vector.png"> </div>
+                        </div>               
+                           
 
-                    </div>
-                    <div class="opcao pudim">
-
-                        <img src="./images/pudim.png">
-                        <div class="nome-prato">
-                            <h4>Pudim</h4>
-                        </div>
-                        <div class="descricao-prato">
-                            <h5>Apenas pudim</h5>
-                        </div>
-                        <div class="preco">
-                            <h6>R$ 7,90</h6>
-                        </div>                  
-
-                    </div>
-                    <div class="opcao pudim">
-
-                        <img src="./images/pudim.png">
-                        <div class="nome-prato">
-                            <h4>Pudim</h4>
-                        </div>
-                        <div class="descricao-prato">
-                            <h5>Apenas pudim</h5>
-                        </div>
-                        <div class="preco">
-                            <h6>R$ 7,90</h6>
-                        </div>                  
-
-                    </div>
-                    <div class="opcao pudim">
-
-                        <img src="./images/pudim.png">
-                        <div class="nome-prato">
-                            <h4>Pudim</h4>
-                        </div>
-                        <div class="descricao-prato">
-                            <h5>Apenas pudim</h5>
-                        </div>
-                        <div class="preco">
-                            <h6>R$ 7,90</h6>
-                        </div>                  
-
-                    </div>
-                    <div class="opcao pudim">
-
-                        <img src="./images/pudim.png">
-                        <div class="nome-prato">
-                            <h4>Pudim</h4>
-                        </div>
-                        <div class="descricao-prato">
-                            <h5>Apenas pudim</h5>
-                        </div>
-                        <div class="preco">
-                            <h6>R$ 7,90</h6>
-                        </div>                  
-
-                    </div>
-                    <div class="opcao pudim">
-
-                        <img src="./images/pudim.png">
-                        <div class="nome-prato">
-                            <h4>Pudim</h4>
-                        </div>
-                        <div class="descricao-prato">
-                            <h5>Apenas pudim</h5>
-                        </div>
-                        <div class="preco">
-                            <h6>R$ 7,90</h6>
-                        </div>                  
-
-                    </div>
-                    <div class="opcao pudim">
-
-                        <img src="./images/pudim.png">
-                        <div class="nome-prato">
-                            <h4>Pudim</h4>
-                        </div>
-                        <div class="descricao-prato">
-                            <h5>Apenas pudim</h5>
-                        </div>
-                        <div class="preco">
-                            <h6>R$ 7,90</h6>
-                        </div>                  
-
-                    </div>
-                    <div class="opcao pudim">
-
-                        <img src="./images/pudim.png">
-                        <div class="nome-prato">
-                            <h4>Pudim</h4>
-                        </div>
-                        <div class="descricao-prato">
-                            <h5>Apenas pudim</h5>
-                        </div>
-                        <div class="preco">
-                            <h6>R$ 7,90</h6>
-                        </div>                  
-
-                    </div>
-                    <div class="opcao pudim">
-
-                        <img src="./images/pudim.png">
-                        <div class="nome-prato">
-                            <h4>Pudim</h4>
-                        </div>
-                        <div class="descricao-prato">
-                            <h5>Apenas pudim</h5>
-                        </div>
-                        <div class="preco">
-                            <h6>R$ 7,90</h6>
-                        </div>                  
-
-                    </div>
-                    <div class="opcao pudim">
-
-                        <img src="./images/pudim.png">
-                        <div class="nome-prato">
-                            <h4>Pudim</h4>
-                        </div>
-                        <div class="descricao-prato">
-                            <h5>Apenas pudim</h5>
-                        </div>
-                        <div class="preco">
-                            <h6>R$ 7,90</h6>
-                        </div>                  
-
-                    </div>
+                    </div>          
             
                 </div>  
             </div>      
             <!-- Conteúdo principal -->
             <!--botão pedido-->
             <div class="barra-inferior">
-                <div class="botao-pedido"><a>Selecione os 3 itens para fechar o pedido</a></div>
+                <button class="botao-pedido" onclick="habilitarBotao()" ><a>Selecione os 3 itens para fechar o pedido</a></button>
             </div>
             <!--botão pedido-->
         </div>
         <!-- Container -->
     </div>
     <!-- Principal -->
+    <script src="Java/script.js"></script>
 </body>
 
 </html>
